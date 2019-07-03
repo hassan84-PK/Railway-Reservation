@@ -33,7 +33,6 @@ namespace RailwayReservation
                 return;
             }
 
-
             DBConnect Connect = new DBConnect();
 
             string passcord = "";
@@ -62,10 +61,6 @@ namespace RailwayReservation
                 MessageBox.Show("Incoreect Password!!");
                 txtpassword.Text = "";
             }
-
-
-
-
 
         }
     }
